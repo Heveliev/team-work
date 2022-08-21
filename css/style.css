@@ -68,11 +68,13 @@ body {
 .footer .logo-first {
     color: var(--logo-first-color);
     font-size: 36px;
+    text-decoration: none;
 }
 
 .footer .logo-second {
     color: var(--logo-second-color);
     font-size: 36px;
+    text-decoration: none;
 }
 
 .footer .link {
