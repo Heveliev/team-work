@@ -1,51 +1,112 @@
-:root{
-    --font:'Poppins', sans-serif;
-    --background-color:#FFFFFF;
-    --primary-text-color:#8F95A5;
-    --secondary-text-color:#000000;
-    --thidrd-text-color:#FFFFFF;
-    --logo-first-color:#000000;
-    --logo-second-color:#939393;
-    --skills-card-background-color:#F5F5F5;
-
+:root {
+  --font: "Poppins", sans-serif;
+  --background-color: #ffffff;
+  --primary-text-color: #8f95a5;
+  --secondary-text-color: #000000;
+  --thidrd-text-color: #ffffff;
+  --logo-first-color: #000000;
+  --logo-second-color: #939393;
+  --skills-card-background-color: #f5f5f5;
 }
 h1,
 h2,
 h3,
 h4,
-p
-{
-    margin-top: 0;
-    margin-bottom: 0;
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
-ol,ul{
-    margin: 0;
-    list-style: none;
-    padding: 0;
-}
-.link{text-decoration: none;}
-.container{
-    width:1380px;
-    padding-left: 20px;
-    padding-right:20px ;
-    margin-left: auto;
-    margin-right: auto;
-}
-.section{
-padding-bottom:180px ;
+ol,
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
 }
 
+.link {
+  text-decoration: none;
+}
 
+.container {
+  width: 1380px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-img{display: block;}
-button {  cursor: pointer;
-    font-family:inherit;}
+.section {
+  padding-bottom: 180px;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
 
 body {
-    font-family: var(--font);
-    color:var(--primary-text-color);
-    font-size:20px;
-    line-height: 1.5;
-    background-color:var(--background-color) ;
+  font-family: var(--font);
+  color: var(--primary-text-color);
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: var(--background-color);
+}
 
+/* Header */
+/* Logo */
+
+.logo {
+  margin-right: 236px;
+
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+
+  color: var(--logo-second-color);
+}
+
+.logo > span {
+  color: var(--logo-first-color);
+}
+
+/* Navigation */
+
+.header .container {
+  display: flex;
+  align-items: center;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-list .link {
+  font-weight: 500;
+
+  color: #263238;
+}
+
+.header-btn {
+  width: 312px;
+  height: 70px;
+  margin-left: auto;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+  background-color: var(--background-color);
+  border: 2px solid #263238;
+  border-radius: 10px;
 }
