@@ -73,6 +73,7 @@ body {
   color: var(--logo-first-color);
 }
 
+
 /* Navigation */
 
 .header .container {
@@ -110,3 +111,37 @@ body {
   border: 2px solid #263238;
   border-radius: 10px;
 }
+
+}
+
+
+/* section_alina */
+
+.additional{
+    padding: 20px;
+}
+
+.additional-title{
+    color: var(--secondary-text-color);
+    margin-bottom: 30px;
+}
+
+.additional-text{
+    color: var(--primary-text-color);
+    margin-bottom: 20px;
+}
+
+.additional-link:visited, .additional-link{
+text-decoration: none;
+color: var(--primary-text-color);
+}
+
+.additional-link:hover{
+    color: var(--secondary-text-color);
+}
+
+.links{
+    display: flex;
+    gap: 30px;
+}
+
