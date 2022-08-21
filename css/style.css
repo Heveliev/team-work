@@ -1,5 +1,10 @@
 :root {
   --font: "Poppins", sans-serif;
+
+  --background-color: #fff;
+  --primary-text-color: #8f95a5;
+  --secondary-text-color: #000;
+
   --background-color: #ffffff;
   --primary-text-color: #8f95a5;
   --secondary-text-color: #000000;
@@ -7,6 +12,7 @@
   --logo-first-color: #000000;
   --logo-second-color: #939393;
   --skills-card-background-color: #f5f5f5;
+
 }
 h1,
 h2,
@@ -27,12 +33,72 @@ ul {
   text-decoration: none;
 }
 
+
+.link {
+  text-decoration: none;
+}
+
+
 .container {
   width: 1380px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+
+}
+.section {
+  padding-bottom: 180px;
+}
+
+img {
+  display: block;
+}
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--primary-text-color);
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: var(--background-color);
+}
+
+.hero-title {
+  margin-bottom: 40px;
+  width: 386px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
+  color: var(--secondary-text-color);
+}
+
+.hero-text {
+  margin-bottom: 60px;
+  width: 540px;
+  font-size: 24px;
+  line-height: 1.5;
+
+  color: var(--primary-text-color);
+}
+
+button {
+  font-family: inherit;
+  font-family: 36px;
+  padding: 23px 64px;
+  height: 100px;
+  cursor: pointer;
+  background-color: var(--secondary-text-color);
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  width: 426px;
+  letter-spacing: 0.03em;
+}
+
 }
 
 .section {
@@ -144,4 +210,5 @@ color: var(--primary-text-color);
     display: flex;
     gap: 30px;
 }
+
 
