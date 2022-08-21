@@ -1,8 +1,12 @@
 :root{
     --font:'Poppins', sans-serif;
-    --background-color:#fff;
+    --background-color:#FFFFFF;
     --primary-text-color:#8F95A5;
-    --secondary-text-color:#000;
+    --secondary-text-color:#000000;
+    --thidrd-text-color:#FFFFFF;
+    --logo-first-color:#000000;
+    --logo-second-color:#939393;
+    --skills-card-background-color:#F5F5F5;
 
 }
 h1,
