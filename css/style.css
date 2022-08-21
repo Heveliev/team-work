@@ -1,8 +1,12 @@
 :root{
     --font:'Poppins', sans-serif;
-    --background-color:#fff;
+    --background-color:#FFFFFF;
     --primary-text-color:#8F95A5;
-    --secondary-text-color:#000;
+    --secondary-text-color:#000000;
+    --thidrd-text-color:#FFFFFF;
+    --logo-first-color:#000000;
+    --logo-second-color:#939393;
+    --skills-card-background-color:#F5F5F5;
 
 }
 h1,
@@ -44,4 +48,35 @@ body {
     line-height: 1.5;
     background-color:var(--background-color) ;
 
+}
+
+
+/* section_alina */
+
+.additional{
+    padding: 20px;
+}
+
+.additional-title{
+    color: var(--secondary-text-color);
+    margin-bottom: 30px;
+}
+
+.additional-text{
+    color: var(--primary-text-color);
+    margin-bottom: 20px;
+}
+
+.additional-link:visited, .additional-link{
+text-decoration: none;
+color: var(--primary-text-color);
+}
+
+.additional-link:hover{
+    color: var(--secondary-text-color);
+}
+
+.links{
+    display: flex;
+    gap: 30px;
 }
