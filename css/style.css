@@ -145,3 +145,23 @@ color: var(--primary-text-color);
     gap: 30px;
 }
 
+
+.contacts-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contacts-title{
+  color: var(--logo-first-color);
+  font-family:var(--font);
+font-weight: 600;
+font-size: 48px;
+line-height: 1.5;
+}
+
+.contacts-text{
+  color: var(--primary-text-color);
+  font-weight: 400;
+font-size: 20px;
+line-height: 1.5;
+}
