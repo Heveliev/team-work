@@ -1,24 +1,49 @@
 :root {
-  --font: "Poppins", sans-serif;
 
-  --background-color: #fff;
-  --primary-text-color: #8f95a5;
-  --secondary-text-color: #000;
+    --font: 'Poppins', sans-serif;
+    --background-color: #FFFFFF;
+    --primary-text-color: #8F95A5;
+    --secondary-text-color: #000000;
+    --thidrd-text-color: #FFFFFF;
+    --logo-first-color: #000000;
+    --logo-second-color: #939393;
+    --skills-card-background-color: #F5F5F5;
 
-  --background-color: #ffffff;
-  --primary-text-color: #8f95a5;
-  --secondary-text-color: #000000;
-  --thidrd-text-color: #ffffff;
-  --logo-first-color: #000000;
-  --logo-second-color: #939393;
-  --skills-card-background-color: #f5f5f5;
 
 }
+
 h1,
 h2,
 h3,
 h4,
 p {
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ol,
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    width: 1380px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    padding-bottom: 180px;
+
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -106,6 +131,45 @@ button {
 }
 
 img {
+
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+body {
+    font-family: var(--font);
+    color: var(--primary-text-color);
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: var(--background-color);
+
+}
+
+
+/* Footer */
+
+.footer .logo-first {
+    color: var(--logo-first-color);
+    font-size: 36px;
+    text-decoration: none;
+}
+
+.footer .logo-second {
+    color: var(--logo-second-color);
+    font-size: 36px;
+    text-decoration: none;
+}
+
+.footer .link {
+    color: var(--primary-text-color);
+    font-size: 24px;
+    letter-spacing: 0.02em;
+}
+
   display: block;
 }
 
@@ -210,5 +274,6 @@ color: var(--primary-text-color);
     display: flex;
     gap: 30px;
 }
+
 
 
