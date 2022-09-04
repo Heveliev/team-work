@@ -12,6 +12,7 @@
   --logo-first-color: #000000;
   --logo-second-color: #939393;
   --skills-card-background-color: #f5f5f5;
+  --dark-grey-color: #2A3246;
 
 }
 h1,
@@ -219,7 +220,7 @@ color: var(--primary-text-color);
   font-weight: 600;
   font-size: 48px;
   line-height: 1.5;
-  color: #000000;
+  color: var(--secondary-text-color);
 }
 
 .about-us-description {
@@ -227,7 +228,7 @@ color: var(--primary-text-color);
   font-weight: 400;
   font-size: 20px;
   line-height: 1.8;
-  color: #8F95A5;
+  color: var(--primary-text-color);
 }
 
 .about-us-markers {
@@ -235,7 +236,7 @@ color: var(--primary-text-color);
   font-weight: 600;
   font-size: 48px;
   line-height: 1.5;
-  color: #2A3246;
+  color: var(--dark-grey-color);
 }
 
 .markers-description {
@@ -243,5 +244,5 @@ color: var(--primary-text-color);
   font-weight: 400;
   font-size: 20px;
   line-height: 1.5;
-  color: #8F95A5;
+  color: var(--primary-text-color);
 }
