@@ -212,3 +212,36 @@ color: var(--primary-text-color);
 }
 
 
+/* About Us Сергій Колесник */
+
+.section-about-us {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: var(--sections-color);
+}
+
+.about-us-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.8;
+  color: var(--descriptions-color);
+}
+
+.about-us-markers {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: #2A3246;
+}
+
+.markers-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--descriptions-color);
+}
