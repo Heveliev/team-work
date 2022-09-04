@@ -219,7 +219,7 @@ color: var(--primary-text-color);
   font-weight: 600;
   font-size: 48px;
   line-height: 1.5;
-  color: var(--sections-color);
+  color: #000000;
 }
 
 .about-us-description {
@@ -227,7 +227,7 @@ color: var(--primary-text-color);
   font-weight: 400;
   font-size: 20px;
   line-height: 1.8;
-  color: var(--descriptions-color);
+  color: #8F95A5;
 }
 
 .about-us-markers {
@@ -243,5 +243,5 @@ color: var(--primary-text-color);
   font-weight: 400;
   font-size: 20px;
   line-height: 1.5;
-  color: var(--descriptions-color);
+  color: #8F95A5;
 }
