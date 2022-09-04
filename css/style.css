@@ -10,6 +10,16 @@
     --skills-card-background-color: #F5F5F5;
 
 
+  --background-color: #ffffff;
+  --primary-text-color: #8f95a5;
+  --secondary-text-color: #000000;
+  --thidrd-text-color: #ffffff;
+  --logo-first-color: #000000;
+  --logo-second-color: #939393;
+  --skills-card-background-color: #f5f5f5;
+  --dark-grey-color: #2A3246;
+
+
 }
 
 h1,
@@ -275,5 +285,39 @@ color: var(--primary-text-color);
     gap: 30px;
 }
 
+
+/* About Us Сергій Колесник */
+
+.section-about-us {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: var(--secondary-text-color);
+}
+
+.about-us-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.8;
+  color: var(--primary-text-color);
+}
+
+.about-us-markers {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: var(--dark-grey-color);
+}
+
+.markers-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+}
 
 
